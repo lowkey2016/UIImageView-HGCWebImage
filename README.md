@@ -1,5 +1,6 @@
 # UIImageView-HGCWebImage
 
+SDWebImage 的封装，提供较方便的接口给 UIImageView，支持图片拉伸适应和高效的圆角效果。
 依赖：SDWebImage, NYXImagesKit
 
 示例代码：
