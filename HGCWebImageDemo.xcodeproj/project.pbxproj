@@ -13,9 +13,12 @@
 		1836A5961DC7287A007DADA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836A5941DC7287A007DADA4 /* Main.storyboard */; };
 		1836A5981DC7287A007DADA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1836A5971DC7287A007DADA4 /* Assets.xcassets */; };
 		1836A59B1DC7287A007DADA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1836A5991DC7287A007DADA4 /* LaunchScreen.storyboard */; };
+		1836A5A41DC72886007DADA4 /* UIImageView+HGCWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1836A5A31DC72886007DADA4 /* UIImageView+HGCWebImage.m */; };
+		407EB0DE0B0E65F75BBF38FD /* Pods_HGCWebImageDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEACF70A66CEEB6E3AF39474 /* Pods_HGCWebImageDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0380D79E2C370586D6010C23 /* Pods-HGCWebImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCWebImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGCWebImageDemo/Pods-HGCWebImageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		1836A5881DC7287A007DADA4 /* HGCWebImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGCWebImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1836A58C1DC7287A007DADA4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1836A58E1DC7287A007DADA4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +29,10 @@
 		1836A5971DC7287A007DADA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1836A59A1DC7287A007DADA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1836A59C1DC7287A007DADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1836A5A21DC72886007DADA4 /* UIImageView+HGCWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+HGCWebImage.h"; sourceTree = "<group>"; };
+		1836A5A31DC72886007DADA4 /* UIImageView+HGCWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+HGCWebImage.m"; sourceTree = "<group>"; };
+		7E38B2A2E24F461901311365 /* Pods-HGCWebImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGCWebImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGCWebImageDemo/Pods-HGCWebImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FEACF70A66CEEB6E3AF39474 /* Pods_HGCWebImageDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HGCWebImageDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407EB0DE0B0E65F75BBF38FD /* Pods_HGCWebImageDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				1836A58A1DC7287A007DADA4 /* HGCWebImageDemo */,
 				1836A5891DC7287A007DADA4 /* Products */,
+				FC7775C0F4FE46AED147242D /* Pods */,
+				350B0AEB000446B60403A043 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +68,8 @@
 		1836A58A1DC7287A007DADA4 /* HGCWebImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1836A5A21DC72886007DADA4 /* UIImageView+HGCWebImage.h */,
+				1836A5A31DC72886007DADA4 /* UIImageView+HGCWebImage.m */,
 				1836A58E1DC7287A007DADA4 /* AppDelegate.h */,
 				1836A58F1DC7287A007DADA4 /* AppDelegate.m */,
 				1836A5911DC7287A007DADA4 /* ViewController.h */,
@@ -79,6 +91,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		350B0AEB000446B60403A043 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEACF70A66CEEB6E3AF39474 /* Pods_HGCWebImageDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC7775C0F4FE46AED147242D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E38B2A2E24F461901311365 /* Pods-HGCWebImageDemo.debug.xcconfig */,
+				0380D79E2C370586D6010C23 /* Pods-HGCWebImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1836A59F1DC7287A007DADA4 /* Build configuration list for PBXNativeTarget "HGCWebImageDemo" */;
 			buildPhases = (
+				8042513852F3F8220E3EAC22 /* [CP] Check Pods Manifest.lock */,
 				1836A5841DC7287A007DADA4 /* Sources */,
 				1836A5851DC7287A007DADA4 /* Frameworks */,
 				1836A5861DC7287A007DADA4 /* Resources */,
+				78B77709A84260DACDCCA5A6 /* [CP] Embed Pods Frameworks */,
+				39BF89B824A52B07DFDC9BF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,6 +178,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39BF89B824A52B07DFDC9BF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCWebImageDemo/Pods-HGCWebImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78B77709A84260DACDCCA5A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGCWebImageDemo/Pods-HGCWebImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8042513852F3F8220E3EAC22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1836A5841DC7287A007DADA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -153,6 +233,7 @@
 			files = (
 				1836A5931DC7287A007DADA4 /* ViewController.m in Sources */,
 				1836A5901DC7287A007DADA4 /* AppDelegate.m in Sources */,
+				1836A5A41DC72886007DADA4 /* UIImageView+HGCWebImage.m in Sources */,
 				1836A58D1DC7287A007DADA4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +350,7 @@
 		};
 		1836A5A01DC7287A007DADA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E38B2A2E24F461901311365 /* Pods-HGCWebImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JQ7R6TK72B;
@@ -281,6 +363,7 @@
 		};
 		1836A5A11DC7287A007DADA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0380D79E2C370586D6010C23 /* Pods-HGCWebImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JQ7R6TK72B;
@@ -310,6 +393,7 @@
 				1836A5A11DC7287A007DADA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

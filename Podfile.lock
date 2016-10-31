@@ -1,0 +1,17 @@
+PODS:
+  - NYXImagesKit (2.3)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - NYXImagesKit
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  NYXImagesKit: 8163e3335a40eaa173ca5bbbf81fafb57d3947eb
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 76a0becc1cf1ab3d2ac0e8ccf35099131e1d7904
+
+COCOAPODS: 1.0.1

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1836A5871DC7287A007DADA4"
-               BuildableName = "HGCWebImageDemo.app"
-               BlueprintName = "HGCWebImageDemo"
-               ReferencedContainer = "container:HGCWebImageDemo.xcodeproj">
+               BlueprintIdentifier = "1AA9FC70F8A37B6903C262B9927A5DBE"
+               BuildableName = "Pods_HGCWebImageDemo.framework"
+               BlueprintName = "Pods-HGCWebImageDemo"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1836A5871DC7287A007DADA4"
-            BuildableName = "HGCWebImageDemo.app"
-            BlueprintName = "HGCWebImageDemo"
-            ReferencedContainer = "container:HGCWebImageDemo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1836A5871DC7287A007DADA4"
-            BuildableName = "HGCWebImageDemo.app"
-            BlueprintName = "HGCWebImageDemo"
-            ReferencedContainer = "container:HGCWebImageDemo.xcodeproj">
+            BlueprintIdentifier = "1AA9FC70F8A37B6903C262B9927A5DBE"
+            BuildableName = "Pods_HGCWebImageDemo.framework"
+            BlueprintName = "Pods-HGCWebImageDemo"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1836A5871DC7287A007DADA4"
-            BuildableName = "HGCWebImageDemo.app"
-            BlueprintName = "HGCWebImageDemo"
-            ReferencedContainer = "container:HGCWebImageDemo.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
